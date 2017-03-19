@@ -7,4 +7,4 @@ ForEach-Object -InputObject $Hosts -Process {
     Invoke-Command -ComputerName $Hosts -Credential $Credentials {Restart-Computer}
 }
 
-Write-Host -ForegroundColor "Green" Done!
+Write-Host -ForegroundColor "Green" Done!!!
